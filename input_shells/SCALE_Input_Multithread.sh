@@ -10,6 +10,6 @@ cd $PBS_O_WORKDIR
 TMPDIR=/tmp/$USER/scale.$$
 
 #echo $NP
-scalerte -m -I 8 -M ${PBS_NODEFILE} -T $TMPDIR %%%file_name%%%
+scalerte -m -I 8 -T $TMPDIR %%%file_name%%%
 
 rm -rf $TMPDIR
