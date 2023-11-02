@@ -12,4 +12,4 @@ The official cluster wiki can be found [here](https://necluster.ne.utk.edu/wiki/
 ### Trouble shooting notes
 
 - interactive jobs (qsubi) will not work if X11 forwarding is not enabled for your ssh connection
-- 
+- In order to read a single hdf5 with different, parallel jobs you must set: export HDF5_USE_FILE_LOCKING=FALSE
